@@ -7,12 +7,12 @@ Console.WriteLine("Modyfikacja 3!");
 
 static int Average(int[] numbers)
 {
-    int sum = 0;
+    int resultSum = 0;
     foreach (int number in numbers)
     {
-        sum += number;
+        resultSum += number;
     }
-    return sum / numbers.Length;
+    return resultSum / numbers.Length;
 }
 
 static int Max(int[] numbers)
