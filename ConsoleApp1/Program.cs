@@ -14,3 +14,15 @@ static int Average(int[] numbers)
     }
     return sum / numbers.Length;
 }
+
+static int Max(int[] numbers)
+{
+    int max = numbers[0];
+    foreach (int number in numbers)
+    {
+        if (number > max)
+            max = number;
+    }
+    
+    return max;
+}
